@@ -1,0 +1,38 @@
+thead {
+  tr {
+    text-align-last: center;
+  }
+}
+tbody {
+  tr {
+    text-align-last: center;
+    td {
+      img {
+        width: 60px;
+        border-radius: 25px;
+      }
+    }
+  }
+}
+
+h6 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+
+  svg {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  svg:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+}
